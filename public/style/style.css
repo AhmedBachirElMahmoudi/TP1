@@ -1,0 +1,52 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap');
+
+/* Reset some default styles for consistency */
+body, h1, form, table {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, sans-serif;
+}
+
+/* Style the form container */
+form {
+    max-width: 400px;
+    margin: 20px auto;
+}
+
+/* Style the table within the form */
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+/* Style table cells (td) */
+td {
+    padding: 10px;
+    border: 1px solid #ccc;
+}
+
+/* Style the submit button */
+button {
+    background-color: #4caf50;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+/* Add some spacing between elements for better readability */
+h1, table, button {
+    margin-bottom: 15px;
+}
+
+/* Style form inputs */
+input {
+    width: 100%;
+    padding: 8px;
+    box-sizing: border-box;
+    margin-bottom: 10px;
+}
